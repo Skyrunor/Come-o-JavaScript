@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula_blabla</title>
+</head>
+<body>
+    <script>
+        let valor1 = prompt("digite o primeiro valor (ex: 10):");
+        let valor2 = prompt("Digite um segundo valor (ex: 20.5):");
+        let valor3 = prompt("Digite o terceiro valor (ex: 60):");
+
+        let num1 = parseInt(valor1);
+        let num2 = parseFloat(valor2);
+        let num3 = Number(valor3);
+
+        let soma = num1 + num2 + num3;
+
+        alert("A soma dos valores é:" + soma);
+
+        console.log("Explicação");
+        console.log(`parseInt("${valor1}")= ${num1} --> Converte o número em Inteiro(Inteiro)`);
+        console.log(`parseFloat("${valor2}")= ${num2} --> Converte para o número com ponto`);
+        console.log(`Number("${valor3}")= ${num3} --> converte diretamente para número`);
+        console.log(`soma final: ${num1} + ${num2} + ${num3} = ${soma}`);
+    </script>
+</body>
+</html>
